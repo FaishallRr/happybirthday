@@ -6,8 +6,13 @@
 }
 
 body {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
   background-image: url("bg.jpg");
+  background-size: cover; /* 🔥 kunci utama */
+  background-position: center; /* center gambar */
+  background-repeat: no-repeat; /* tidak diulang */
+  background-attachment: fixed; /* efek elegan di desktop */
+  min-height: 100vh;
 }
 
 #card-front {
